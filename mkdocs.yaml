@@ -14,6 +14,7 @@ nav:
       - DataClass: apis/dataclass.md
       - Filtering: apis/filtering.md
       - Viewer: apis/viewer.md
+      - Evaluation: apis/evaluation.md
       - Common: apis/common.md
 
 theme:
