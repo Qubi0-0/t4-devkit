@@ -441,7 +441,7 @@ class Tier4:
             shape=shape,
             velocity=velocity,
             confidence=1.0,
-            uuid=instance.token,  # TODO(ktro2828): extract uuid from `instance_name`.
+            # uuid=instance.token,  # TODO(ktro2828): extract uuid from `instance_name`.
         )
 
         if future_seconds > 0.0:
@@ -480,7 +480,7 @@ class Tier4:
             semantic_label=semantic_label,
             roi=ann.bbox,
             confidence=1.0,
-            uuid=instance.token,  # TODO(ktro2828): extract uuid from `instance_name`.
+            # uuid=instance.token,  # TODO(ktro2828): extract uuid from `instance_name`.
         )
 
     def get_box3ds(self, sample_data_token: str, *, future_seconds: float = 0.0) -> list[Box3D]:
