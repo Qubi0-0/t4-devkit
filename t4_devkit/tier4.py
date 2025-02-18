@@ -563,7 +563,7 @@ class Tier4:
                         shape=Shape(ShapeType.BOUNDING_BOX, curr_ann.size),
                         velocity=velocity,
                         confidence=1.0,
-                        uuid=instance.token,  # TODO(ktro2828): extract uuid from `instance_name`.
+                        # uuid=instance.token,  # TODO(ktro2828): extract uuid from `instance_name`.
                     )
                 else:
                     # If not, simply grab the current annotation.
