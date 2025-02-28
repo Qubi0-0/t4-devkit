@@ -451,7 +451,7 @@ class RerunViewer:
             format_entity(self.ego_entity, channel),
             rr.Points3D(
                 pointcloud.points[:3].T,
-                colors=colors,
+                colors=colors/1.4,
             ),
         )
 
